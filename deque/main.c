@@ -35,7 +35,6 @@ void char_print_adt (const void* data) {
 
 int main() {
     struct Deque *new = deque_create(char_cp_adt, char_destroy_adt, char_print_adt);
-    printf("fhuiw]n");
     deque_destroy(new);
 }
 
